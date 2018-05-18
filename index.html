@@ -31,8 +31,12 @@
         background-attachment:fixed;
         background-position:center;
         padding:20rem 10rem;}
-      article h1 {color:#fff; position:relative; z-index:3;}
+      article h1 {color:#fff; position:relative; z-index:3; margin-bottom:1rem;}
       .contrast {background:rgba(0,0,0,.65); position:absolute; width:100%; height:100%; left:0; top:0;}
+      .meta {color:#fff; position:relative; z-index: 3; font-size: 1rem;}
+      .meta a {color:#fff; text-decoration: none; display: inline-block; border-bottom:#fff 1px dashed;}
+      .meta a:hover, .meta a:focus {color:#ccc; border-bottom:#ccc 1px dashed;}
+
   </style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
@@ -43,6 +47,9 @@
 <header>
   <div class="contrast"></div>
   <h1 class="title">Fundamentals of GDPR</h1>
+  <div class="meta">
+    by <a href="#">Katherine White</a> | May 17, 2018 | <a href="#">Corporate</a>, <a href="#">Security</a>, <a href="#">Technical</a>
+  </div>
 </header>
 <div id="main">
 <p>The General Data Protection Regulation (GDPR) is a big shift in the way businesses may process and control personal data within all 28 EU countries. The new law focuses on giving European citizens full control of their data. They control who has it, what they can have, and how they can use it.</p>
